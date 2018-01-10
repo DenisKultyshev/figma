@@ -1,5 +1,8 @@
 @import "bourbon/bourbon"
 
+$blue: #5A4BE8
+$grey: #d9d9d9
+
 html.js .loader
 	background: none repeat scroll 0 0 #ffffff
 	bottom: 0
@@ -25,8 +28,11 @@ html.js .loader
 		position: absolute
 *
 	box-sizing: border-box
+label
+	cursor: pointer
 body
-	font-family: "RobotoRegular", sans-serif
+	color: #fff
+	font-family: 'Montserrat', sans-serif
 	font-weight: normal
 	font-size: 14px
 	min-width: 320px
@@ -34,7 +40,6 @@ body
 	line-height: 1.6
 	-webkit-font-smoothing: antialiased
 	overflow-x: hidden
-	background-image: url('../img/8-fon-dlya-sayta.png')
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid
@@ -43,5 +48,871 @@ body input:required:valid,
 body textarea:required:valid
 	color: green
 
+h1, h2, h3, h4, h5, h6
+	margin: 0
+input
+	transition: all 0.3s
+input:focus,
+textarea:focus
+	border-color: blue
 .hidden
 	display: none
+	
+a
+	transition: all 0.3s
+.page
+	padding-top: 40px
+	min-height: 1838px
+	background: url('../img/bg.png') no-repeat
+	background-size: 100%
+
+
+.content
+	max-width: 1140px
+	margin: auto
+
+.header
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	justify-content: space-between
+	align-items: center
+	font-family: 'Montserrat', sans-serif
+
+.header__list
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	justify-content: space-between
+	max-width: 410px
+	width: 100%
+	list-style-type: none
+
+.header__item
+	display: inline-block
+	font-style: Regular
+	font-size: 18px
+	line-height: 22px
+	a
+		color: #fff
+		text-decoration: none
+		transition: all 0.3s
+	a:hover
+		color: #D5D5D5
+
+.rounded__button
+	width: 195px
+	height: 49px
+	border-radius: 100px
+	background-color: transparent
+	border: 1px solid #17c37b
+	font-style: Regular
+	font-size: 16px
+	line-height: 20px
+	color: #fff
+	font-family: 'Montserrat', sans-serif
+	outline: none
+	transition: all 0.4s
+
+.rounded__button:hover
+	border-color: #11905B
+	color: #d9d9d9
+
+.start
+	padding-top: 131px
+	height: 100%
+
+.start__title
+	font-weight: 900
+	font-size: 58px
+	line-height: 80px
+	letter-spacing: -1px
+	color: #fff
+	font-family: 'Montserrat', sans-serif
+
+.start__button
+	margin-top: 50px
+	font-family: 'Montserrat', sans-serif
+
+.green-button
+	width: 195px
+	height: 55px
+	background-color: #17c37b
+	color: #fff
+	outline: none
+	border: none
+	font-size: 16px
+	font-family: 'Montserrat', sans-serif
+	transition: all 0.4s
+.green-button:hover
+	background-color: #11905B
+
+.start__list
+	margin-top: 135px
+	height: 18px
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	list-style-type: none
+	width: 294px
+	justify-content: space-between
+	font-family: 'Montserrat', sans-serif
+	font-weight: 300
+
+.start__item
+	a
+		color: #fff
+		text-decoration: underline
+		font-weight: 200
+		font-size: 14px
+		transition: all 0.3s
+	a:hover
+		color: #D5D5D5
+
+.whatwedo
+	padding-top: 220px
+	width: 1043px
+	font-family: 'Montserrat', sans-serif
+
+.whatwedo__title
+	font-weight: bold
+	margin: 0
+	font-size: 36px
+	line-height: 44px
+	color: #fff
+
+
+.whatwedo__list
+	margin-top: 70px
+	margin-bottom: 37px
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	justify-content: space-between
+	list-style-type: none
+
+.whatwedo__item
+	max-width: 263px
+
+.whatwedo__subtitle
+	font-weight: bold
+	font-size: 24px
+	line-height: 29px
+	margin: 0 0 10px
+
+.whatwedo__text
+	margin: 0
+	font-size: 18px
+	line-height: 30px
+	color: #97A1AE
+	font-weight: 400
+	font-family: 'Lato', sans-serif
+
+a.whatwedo__link
+	font-size: 18px
+	font-weight: 400
+	color: #fff
+	text-decoration: none
+	transition: all 0.3s
+a.whatwedo__link:hover
+	color: #D5D5D5
+
+
+.ourwork
+	padding-top: 120px
+	padding-right: 80px
+	text-align: center
+	font-family: 'Montserrat', sans-serif
+	
+.ourwork__button:hover
+	color: #2F2F2F
+
+.ourwork__title
+	font-weight: bold
+	font-size: 144px
+	margin: 0
+	opacity: 0.05
+	position: relative
+	left: -280px
+.item
+	position: relative
+	text-align: right
+
+.item1
+	padding-top: 88px
+	.item__review
+		top: 347px
+.item2 
+	text-align: left
+	padding-top: 300px
+
+.item3 
+	padding-top: 300px
+	padding-bottom: 110px
+
+.item__review
+	padding: 40px 56px
+	width: 556px
+	height: 300px
+	background-color: #FFF
+	z-index: 100
+	position: absolute
+	top: 567px
+	left: 20px
+	text-align: left
+	font-family: 'Montserrat', sans-serif
+
+.item2
+	.item__review
+		left: 498px
+
+.item__review-title
+	color: #494949
+	font-size: 30px
+	font-weight: 900
+
+.item__review-text
+	font-size: 18px
+	color: #97a1ae
+	font-family: 'Lato', sans-serif
+
+a.item__review-link
+	font-size: 18px
+	color: #333
+	text-decoration: none
+	transition: all 0.3s
+a.item__review-link:hover
+	color: blue
+
+.ourwork__button
+	color: #333
+	margin: auto
+
+.contact
+	padding-top: 220px
+	padding-bottom: 183px
+
+.contact__title,
+.service__title,
+.team__title,
+.client__title
+	font-size: 144px
+	font-weight: bold
+	position: relative
+	left: -100px
+	color: #000
+	opacity: 0.05
+
+.contact__list
+	margin-top: 145px
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	justify-content: space-between
+	width: 760px
+
+.contact__item-subtitle
+	font-size: 18px
+	color: #494949
+	font-weight: bold
+	line-height: 33px
+
+.contact__item-text
+	color: #97A1AE
+	font-size: 18px
+	margin: 0
+	line-height: 33px
+	font-family: 'Lato', sans-serif
+
+.contact__form
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	margin-top: 112px
+	width: 100%
+	max-width: 1042px
+	justify-content: space-between
+	flex-wrap: wrap
+
+.contact__inp
+	width: 45%
+
+.contact__inp,
+.contact__textarea
+	font-size: 20px
+	line-height: 33px
+	border: none
+	border-bottom: 2px solid #97A1AE
+	color: #000
+	outline: none
+	font-family: 'Montserrat', sans-serif
+
+.contact__textarea
+	margin-top: 100px
+	width: 100%
+
+.contact__button
+	margin-top: 50px
+
+::-webkit-input-placeholder 
+	color: #97A1AE
+
+.footer
+	background-color: #333
+	width: 100%
+	height: 90px
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	align-items: center
+
+.footer__list
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	justify-content: space-between
+	width: 384px
+	margin: auto
+	list-style-type: none
+	font-weight: bold
+
+.footer__item
+	a
+		color: #fff
+		font-size: 18px
+		font-weight: 600
+		text-decoration: none
+		transition: all 0.3s
+	a:hover
+		color: #d9d9d9
+
+/* second page */
+
+.second-page
+	padding-top: 40px
+	min-height: 1838px
+	background-size: 100%
+	background: linear-gradient(to bottom, #0B1136 768px, #fff 768px)
+
+.second-header
+	max-height: 768px
+	
+
+.header__link
+	color: #fff  !important
+	text-decoration: none !important
+	transition: all 0.3s
+.header__link:hover
+	color: #d9d9d9 !important
+
+.start
+	.start__title
+		max-width: 1010px
+		font-size: 58px
+	.start__link
+		text-decoration: none
+		transition: 0.4s
+	span
+		border-bottom: 4px solid #337ab7
+
+.start__video
+	margin-top: 120px
+	background-image: url("../img/table.png")
+	border-radius: 10px
+	background-position: 40%
+	background-size: 100%
+	height: 460px
+
+.service__title
+	margin-top: 220px
+
+.service__path
+	margin-top: 50px
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	justify-content: space-between
+
+.service__item
+	width: 34%
+	min-height: 10px
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	align-items: center
+
+.service__item-1,
+.service__item-3
+	width: 33%
+
+.service__line
+	width: 50%
+	height: 2px
+	background-color: #97A1AE
+
+.service__dot-border
+	width: 22px
+	height: 19px
+	border: 2px solid #97A1AE
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	align-items: center
+	justify-content: center
+	border-radius: 50%
+
+.service__dot
+	width: 11px
+	height: 11px
+	border: 2px solid #97A1AE
+	border-radius: 50%
+
+.dot-active
+	width: 22px
+	height: 21px
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	align-items: center
+	border-color: #6067F1
+
+.service__dot-point
+	width: 11px
+	height: 11px
+	margin: auto
+	z-index: 1000
+	border-radius: 50%
+	background-color: #6067F1
+
+.service__line-active
+	background-color: #6067F1
+
+.service__names 
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	justify-content: space-between
+
+.names__item
+	margin-top: 40px
+	font-size: 24px
+	font-weight: bold
+	text-align: center
+	color: #97A1AE
+
+.names__item1,
+.names__item3
+	width: 33%
+
+.names__item2
+	witdth: 34%
+
+.names__item-active
+	color: #000
+
+.icons
+	margin-top: 105px
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	justify-content: space-between
+
+.icons__item
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	justify-content: center
+	width: 33%
+
+.icons__item2
+	width: 34%
+
+svg
+	width: 50px
+	height: 50px
+
+.service__review
+	margin-top: 47px
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	justify-content: space-between
+
+.service__item
+	max-width: 458px
+	width: 50%
+
+.service__text
+	font-size: 18px
+	color: #97A1AE
+	font-family: 'Lato', sans-serif
+
+.team
+	padding-right: 80px
+	padding-top: 258px
+	position: relative
+
+.item__review-subtitle
+	font-size: 18px
+	color: #494949
+
+.team__list
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	justify-content: space-between
+	max-width: 252px
+	margin-top: 44px
+	transition: all 0.3s
+	a:hover
+		color: #000
+
+.team__item
+	a
+		color: #97A1AE
+		list-style-type: none
+		text-decoration: none
+
+.team__item
+	.team__link
+		color: #333333
+		font-size: 18px
+
+.team__nav
+	width: 100%
+	margin-left: 112px
+	max-width: 208px
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	justify-content: space-between
+	a:hover
+		color: grey
+
+.team__item
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	justify-content: space-between
+	align-items: flex-end
+
+.client
+	padding-top: 200px
+
+.carousel
+	padding: 120px 0
+
+.carousel-cell 
+	width: 33%
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	height: 120px
+	align-items: center
+	justify-content: center
+
+.flickity-page-dots 
+	bottom: -2px
+
+.flickity-page-dots .dot 
+	height: 4px
+	width: 40px
+	margin: 0
+	border-radius: 0
+
+.ending
+	font-weight: 900
+	max-width: 1027px
+	padding: 220px 0
+	font-size: 58px
+	color: #494949
+	font-family: 'Montserrat', sans-serif
+	.ending__link
+		text-decoration: none
+		transition: 0.4s
+	span
+		border-bottom: 4px solid #337ab7
+
+
+/* page 2 */
+
+.third-page,
+.fourth-page
+	padding-top: 40px
+	color: #333
+
+.third-header,
+.fourth-header
+	.header__button
+		color: #333
+	.header__link
+		color: #333 !important
+		font-size: 18px
+
+.third-header .header__link:hover,
+.fourth-header .header__link:hover
+	color: grey !important
+
+.third-page__title
+	font-size: 58px	
+	font-weight: 900
+	margin-top: 139px
+	font-family: 'Montserrat', sans-serif
+
+.project-form
+	padding-top: 112px
+
+.project-form__title
+	font-size: 36px
+	font-weight: bold
+	font-family: 'Montserrat', sans-serif
+
+.project-form__input-wrapper
+	padding: 100px 0
+	width: 100%
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	max-width: 1042px
+	justify-content: space-between
+
+.project-form__input,
+.project-form__select
+	font-size: 20px
+	line-height: 33px
+	border: none
+	border-bottom: 2px solid #97A1AE
+	color: #000
+	outline: none
+	width: 45%
+	font-family: 'Montserrat', sans-serif
+
+.project-form__select	
+	max-width: 469px
+	color: #97A1AE
+
+.project-form__create,
+.project-form__responsible,
+.project-form__time
+	padding-top: 150px	
+
+.project-form__item 
+	width: 195px
+	height: 55px
+	margin-top: 60px
+	margin-right: 68px
+	color: #494949
+	font-size: 16px
+	background-color: transparent
+	outline: none
+	border: 1px solid #DBDEE2
+	font-family: 'Montserrat', sans-serif
+
+.project-form__item--active
+	color: #fff
+	background-color: #6067F1
+	box-shadow: 5px 5px 10px rgba(147, 152, 245, 0.4)
+
+.time-sec__agree-wrapper
+	margin-top: 40px
+	font-size: 18px
+	color: #333	
+	#agree
+		margin-right: 12px
+		background-color: none
+		font-family: 'Montserrat', sans-serif
+
+.project-form__button
+	margin: 80px 0 275px 
+ 
+/* furth page */
+
+.project__img-wrapper
+	margin: 68px auto 48px
+	width: 1140px
+	height: 429px
+	background-image: url("../img/fullshoe.png")
+	background-size: cover
+	repeat: no-repeat
+	background-position: 0 -360px
+
+.project__list
+	width: 450px
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	justify-content: space-between
+	list-style-type: none
+
+.project__item-title
+	font-size: 18px
+	font-weight: bold
+	color: #494949
+
+.project__item-text
+	font-size: 18px
+	color: #97A1AE
+	font-family: 'Lato', sans-serif
+
+.project__review	
+	padding: 60px 0 108px
+	max-width: 847px
+
+.preview__subtitle
+	font-size: 36px
+	font-weight: bold
+	color: #494949
+
+.preview__text
+	font-size: 18px
+	line-height: 33px
+	color: #97A1AE
+	font-family: 'Lato', sans-serif
+
+.project__carousel-cell
+	width: 50%
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	height: 327px
+	align-items: center
+	justify-content: center
+
+.p-carousel__item
+	width: 591px
+	height: 327px
+
+.manager
+	text-align: center
+	padding: 197px 0 0
+
+.manager__av
+	width: 110px
+	height: 110px
+	background-image: url("../img/man.png")
+	background-size: 100%
+	background-position: 0 -20px
+	border-radius: 50%
+	margin: auto
+
+.manager__title
+	color: #6067F1
+	font-size: 18px
+	font-weight: 700
+	margin-top: 13px
+
+.manager__text
+	color: #97A1AE
+	font-size: 18px
+	max-width: 945px
+	margin: 31px auto 0
+	line-height: 33px
+	font-family: 'Lato', sans-serif
+
+.manager__shoe
+	margin-top: 100px
+	width: 100%
+	height: auto
+
+.project__ending
+	font-size: 58px
+	font-weight: 900
+	text-align: center
+	padding: 100px 0 117px
+	a
+		text-decoration: none
+		transition: 0.4s
+	span
+		border-bottom: 4px solid #337ab7
+
+/* modal */
+
+.modal
+	width: 100%
+	height: 100%
+	min-height: 600px
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	flex-direction: column
+
+.modal__content
+	max-width: 1040px
+	margin: auto
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	justify-content: space-between
+
+.modal__svg
+	width: 25%
+	max-width: 300px
+	height: 300px
+
+.modal__info
+	width: 65%
+	color: #494949
+
+.modal__title
+	font-size: 58px
+	font-weight: 900
+	letter-spacing: -1px
+	line-height: 68px
+
+.modal__text
+	max-width: 373px
+	font-size: 18px
+	line-height: 30px
+	color: #97A1AE
+	margin: 25px 0 56px
+	font-family: 'Lato', sans-serif

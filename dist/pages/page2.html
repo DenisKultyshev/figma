@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+
+	<title>Figma-project</title>
+	<meta name="description" content="">
+	<link rel="shortcut icon" href="../img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="../img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/apple-touch-icon-114x114.png">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="../libs/bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="../libs/animate/animate.css">
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/fonts.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/media.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:300,400,700,900" rel="stylesheet">
+	<script src="../libs/modernizr/modernizr.js"></script>
+
+</head>
+
+<body>
+	<div class="third-page">
+		<div class="content">
+			<header class="header third-header">
+				<a href="../index.html" class="header__link">← go to main page</a>
+				<a href="page2.html"><button class="header__button rounded__button">Start Project</button></a>
+			</header>
+			<h2 class="third-page__title">Tell us about your project</h2>
+			<form action="" class="project-form">
+				<section class="project-form__basic">
+					<h3 class="project-form__title">Basic information</h3>
+					<div class="project-form__input-wrapper">
+						<input type="text" class="project-form__input" placeholder="Your name">
+						<input type="text" class="project-form__input" placeholder="E-mail">
+					</div>
+					<select class="project-form__select" name="Budget" id="" placeholder="budget">
+						<option value="">Budget</option>
+						<option value="100">100р</option>
+						<option value="500">500р</option>
+						<option value="1000">1000р</option>
+					</select>
+				</section>
+				<section class="project-form__create create-sec">
+					<h3 class="project-form__title">What are we creating?</h3>
+					<div class="create-sec__wrapper">
+						<button class="project-form__item project-form__item--active">Website</button>
+						<button class="project-form__item">Mobile App</button>
+					</div>
+				</section>
+				<section class="project-form__responsible resp-sec">
+					<h3 class="project-form__title">What are we responsible for?</h3>
+					<div class="resp-sec__wrapper">
+						<button class="project-form__item">Research</button>
+						<button class="project-form__item project-form__item--active">Web Design App</button>
+						<button class="project-form__item">Development</button>
+						<button class="project-form__item project-form__item--active">Marketing</button>
+					</div>
+				</section>
+				<section class="project-form__time time-sec">
+					<h3 class="project-form__title">How much time do we have?</h3>
+					<div class="resp-sec__wrapper">
+						<button class="project-form__item">1-3 months</button>
+						<button class="project-form__item">3-6 months</button>
+						<button class="project-form__item">6-12 months</button>
+						<button class="project-form__item project-form__item--active">12-24 months</button>
+					</div>
+					<div class="time-sec__agree-wrapper">
+						<label for="agree" >
+							<input id="agree" type="checkbox" class="time-sec__agree">
+							I agree to processing of personal data
+						</label>
+					</div>
+				</section>
+				<!-- <button class="project-form__button green-button">Send message</button> -->
+			</form>
+			<!-- кнопка для примера -->
+			<a href="modal.html"><button class="contact__button green-button" style="margin-bottom: 90px">Send message</button></a>
+		</div>
+		<footer class="footer">
+			<ul class="footer__list">
+				<li class="footer__item"><a href="">dribbble</a></li>
+				<li class="footer__item"><a href="">behance</a></li>
+				<li class="footer__item"><a href="">instagram</a></li>
+			</ul>
+		</footer>
+	</div>
+	<div class="hidden"></div>
+
+	<div class="loader">
+		<div class="loader_inner"></div>
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	
+	<!-- <script src="libs/jquery/jquery-3.2.1.min.js"></script>
+	<script src="libs/pjax/jquery.pjax.js"></script>
+	<script src="libs/waypoints/waypoints.min.js"></script>
+	<script src="libs/animate/animate-css.js"></script>
+	<script src="libs/plugins-scroll/plugins-scroll.js"></script> -->
+	<script src="../js/libs.min.js"></script>
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+	<script src="../js/common.js"></script>
+	
+</body>
+</html>

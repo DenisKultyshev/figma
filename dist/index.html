@@ -6,7 +6,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>Web-Cookery</title>
+	<title>Figma-project</title>
 	<meta name="description" content="">
 	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
 	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
@@ -22,13 +22,123 @@
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/media.css">
-
+	<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:300,400,700,900" rel="stylesheet">
 	<script src="libs/modernizr/modernizr.js"></script>
 
 </head>
 
 <body>
-	
+	<div class="page">
+		<div class="content">
+			<header class="header">
+				<ul class="header__list">
+					<li class="header__item"><a href="#">Main</a></li>
+					<li class="header__item"><a href="#">What we do</a></li>
+					<li class="header__item"><a href="#">Work</a></li>
+					<li class="header__item"><a href="#">Contact us</a></li>
+				</ul>
+				<a href="pages/page2.html"><button class="header__button rounded__button">Start Project</button></a>
+			</header>
+
+			<section class="start">
+				<h1 class="start__title">Creatie vision, technologies and digital experiene</h1>
+				<button class="start__button green-button">Show work</button>
+				<ul class="start__list">
+					<li class="start__item"><a href="">behance</a></li>
+					<li class="start__item"><a href="">dribble</a></li>
+					<li class="start__item"><a href="">instagram</a></li>
+				</ul>
+			</section>
+
+			<section class="whatwedo">
+				<h2 class="whatwedo__title">What we do</h2>
+				<ul class="whatwedo__list">
+					<li class="whatwedo__item">
+						<h3 class="whatwedo__subtitle">Research</h3>
+						<p class="whatwedo__text">In this digital generation where information can be easily obtained within seconds</p>
+					</li>
+					<li class="whatwedo__item">
+						<h3 class="whatwedo__subtitle">Product design</h3>
+						<p class="whatwedo__text">HDMI, or high definition multimedia interface, is a type of audio and video interface that is</p>
+					</li>
+					<li class="whatwedo__item">
+						<h3 class="whatwedo__subtitle">Mobile design</h3>
+						<p class="whatwedo__text">Large businesses require a lot of IT infrastructure and a department to look after it. Small </p>
+					</li>
+				</ul>
+				<a href="pages/page1.html" class="whatwedo__link">read more →</a>
+			</section>
+
+			<section class="ourwork">
+				<h2 class="ourwork__title">Our work</h2>
+				<div class="ourwork__item item item1">
+					<img src="img/shoe.png" alt="" class="item__img">
+					<div class="item__review">
+						<h3 class="item__review-title">Wunedu - redesign of site for sneakers</h3>
+						<p class="item__review-text">An employee health, happiness and motivation management platform</p>
+						<a href="#" class="item__review-link">see work →</a>
+					</div>
+				</div>
+
+				<div class="ourwork__item item item2">
+					<img src="img/porage.png" alt="" class="item__img">
+					<div class="item__review">
+						<h3 class="item__review-title">Nywijathny design</h3>
+						<p class="item__review-text">The world has become so fast paced that people don’t want to stand by reading a page of information, they would much rather look at a presentation and understand </p>
+						<a href="#" class="item__review-link">see work →</a>
+					</div>
+				</div>
+				
+				<div class="ourwork__item item item3">
+					<img src="img/orange.png" alt="" class="item__img">
+					<div class="item__review">
+						<h3 class="item__review-title">Dawaloo branding</h3>
+						<p class="item__review-text">Can you imagine what we will be downloading in another twenty years? I mean who would have ever thought that you could record</p>
+						<a href="#" class="item__review-link">see work →</a>
+					</div>
+				</div>
+
+				<a href="pages/page3.html"><button class="ourwork__button rounded__button">More work</button></a>
+			</section>
+
+			<section class="contact">
+				<h2 class="contact__title">
+					Contact us
+				</h2>
+
+				<ul class="contact__list">
+					<li class="contact__item">
+						<h6 class="contact__item-subtitle">address</h6>
+						<p class="contact__item-text">Charlottenstraße 68</p>
+					</li>
+					<li class="contact__item">
+						<h6 class="contact__item-subtitle">telephone</h6>
+						<p class="contact__item-text">+ 49 30 22 00 22 900</p>
+					</li>
+					<li class="contact__item">
+						<h6 class="contact__item-subtitle">E-mail</h6>
+						<p class="contact__item-text">info@valid-digital.com</p>
+					</li>
+				</ul>
+
+				<form action="#" class="contact__form">
+					<input type="text" class="contact__inp contact__name-inp" placeholder="Your name">
+					<input type="text" class="contact__inp contact__mail-inp" placeholder="Your e-mail">
+					<textarea name="" id="" cols="30" rows="1" class="contact__textarea" placeholder="Your message"></textarea>
+					<!-- <a href="pages/modal.html"><button class="contact__button green-button">Send message</button></a> -->
+				</form>
+				<!-- кнопка для примера -->
+				<a href="pages/modal.html"><button class="contact__button green-button">Send message</button></a>
+			</section>
+		</div>
+		<footer class="footer">
+			<ul class="footer__list">
+				<li class="footer__item"><a href="">dribbble</a></li>
+				<li class="footer__item"><a href="">behance</a></li>
+				<li class="footer__item"><a href="">instagram</a></li>
+			</ul>
+		</footer>
+	</div>
 	<div class="hidden"></div>
 
 	<div class="loader">
