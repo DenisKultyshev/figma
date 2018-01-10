@@ -2,12 +2,129 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+	.content {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.ourwork__title {
+		position: block;
+		left: 0;
+		text-align: left;
+	}
+	.contact__title,
+	.service__title,
+	.team__title,
+	.client__title {
+		position: block;
+		left: 0;
+	}
+	.page {
+		background-size: 150%;
+	}
 
+	.start__list {
+		margin-top: 30px;
+	}
+
+	.whatwedo {
+		padding-top: 120px;
+	}
+	
+	.whatwedo__subtitle {
+		font-size: 20px;
+	}
+	
+	.whatwedo__text {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.item__img {
+		width: 440px;
+		height: 440px;
+	}
+
+	.item__review-title {
+		font-size: 22px;
+	}
+
+	.item__review-text,
+	a.item__review-link {
+		font-size: 14px;
+	}
+
+	.item__review {
+		padding: 16px;
+		width: 400px;
+		height: 220px;
+		left: 100px;
+	}
+
+	.item .item__review {
+		top: 240px;
+	}
+	.item2 .item__review {
+		top: 240px;
+		left: 380px;
+	}
+	.item2,
+	.item3 {
+		padding-top: 140px;
+
+	}
+
+	.contact {
+		padding-top: 120px;
+	}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	.page {
+		-webkit-background-size: 200%;
+		background-size: 200%;
+	}
 
+	.whatwedo__list {
+		justify-content: center;
+		text-align: center;
+		flex-wrap: wrap;
+	}
+
+	.whatwedo__item {
+		margin: 32px;
+		width: 45%;
+	}
+
+	.ourwork__title {
+		font-size: 100px;
+	}
+
+	.item1 .item__review,
+	.item3 .item__review {
+		top: 30px;
+		left: 0px;
+	}
+
+	.item2 .item__review {
+		top: 70px;
+		left: 210px;
+	}
+
+	.contact__title,
+	.service__title,
+	.team__title,
+	.client__title {
+		font-size: 100px	
+	}
+
+	.contact__list {
+		margin-top: 40px;
+	}
+
+	.contact__item {
+		width: 33%;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -34,20 +151,212 @@
 		-ms-animation: none !important;
 		animation: none !important;
 	}
-	
+	.header__list {
+		width: 65%;
+	}
+
+	.header__item {
+		font-size: 16px;
+	}
+
 	.article__title {
 		font-size: 24px;
 		margin: 8px 0;
 	}
+
+	.rounded__button {
+		width: 140px;
+		height: 50px;
+	}
+
+	.start__title {
+		font-size: 24px;
+		line-height: 60px;
+	}
+
+	.whatwedo__list {
+		margin-top: 16px;
+	}
+
+	.ourwork__title {
+		color: #000;
+		font-size: 80px;
+	}
+
+	.item__review {
+		width: 300px;
+	}
+
+	.item3 .item__review {
+		top: 90px;
+	}
+
+	.item3 {
+		padding-bottom: 32px;
+	}
+
+	.contact__title,
+	.service__title,
+	.team__title,
+	.client__title {
+		font-size: 80px;
+	}
+
+	.contact__item-subtitle {
+		font-size: 16px;
+	}
+
+	.contact__item-text {
+		font-size: 14px;
+	}
+
+	.contact__list {
+		width: 100%;
+	}
+
+	.contact__form {
+		margin-top: 30px
+	}
+
+	.contact {
+		padding-bottom: 48px
+	}
 }
 
 @media only screen and (max-width : 600px) {
+	.page {
+		background-size: 100vw 90vh;
+	}
 
+	.header {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	
+	.header__button {
+		width: 200px;
+		margin-top: 32px;
+	}
+
+	.header__list {
+		width: 100%;
+	}
+
+	.start {
+		padding-top: 32px;
+	}
+
+	.start .start__title {
+		font-size: 40px;
+	}
+
+	.whatwedo__title,
+	.whatwedo__subtitle {
+		color: #494949;
+	}
+
+	.ourwork {
+		padding: 0;
+	}
+
+	.item__img {
+		width: 100%;
+		height: auto;
+	}
+
+	.item .item__review {
+		width: 300px;
+		height: 230px;
+		top: 30px;
+		left: 0px;
+	}
+
+	.contact__title,
+	.service__title,
+	.team__title,
+	.client__title,
+	.ourwork__title {
+		font-size: 60px;
+	}
+	
+	.contact__list {
+		flex-wrap: wrap;
+	}
+
+	.contact__item {
+		width: 100%;
+	}
+
+	.footer__item a {
+		font-size: 12px;
+	}
+
+	.contact__inp {
+		width: 100%;
+		margin-top: 32px;
+	}
+
+	.contact__form {
+		margin-top: 32px;
+	}
+
+	.contact__textarea {
+		margin-top: 32px;
+	}
+
+	.item__review-title {
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.item__review-text {
+		margin: 8px 0;
+	}
+
+	.item .item__review {
+		width: 100%;
+		height: 200px;
+		position: relative;
+		left: 0;
+		right: 0;
+		top: 0;
+	}
+
+	.ourwork__item {
+		padding-top: 30px
+	}
+
+	.footer {
+		padding: 16px;
+	}
 }	
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	
+	.content {
+		padding: 16px;
+	}
+
+	.header__item {
+		font-size: 14px;
+	}
+
+	.start .start__title {
+		font-size: 32px;
+		line-height: 50px;
+	}
+
+	.start__item {
+		width: 33%;
+	}
+
+	.contact__title,
+	.service__title,
+	.team__title,
+	.client__title,
+	.ourwork__title {
+		font-size: 50px;
+	}
 }
 
 /* Custom, iPhone Retina */

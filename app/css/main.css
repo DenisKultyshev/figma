@@ -214,7 +214,7 @@ a {
 
 .whatwedo {
   padding-top: 220px;
-  width: 1043px;
+  max-width: 1043px;
   font-family: 'Montserrat', sans-serif; }
 
 .whatwedo__title {
